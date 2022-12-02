@@ -1,6 +1,18 @@
 {
   "name": "quran-web",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": {
+    "name": "Iftikhar Yar Khan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Quran, App, Quran App, Application, Quran Application"
+  ],
+  "description": "Most diverse Muslim application related to Quran",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iftikharyk/quran-web.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,6 +31,8 @@
     "@angular/platform-browser": "~10.2.4",
     "@angular/platform-browser-dynamic": "~10.2.4",
     "@angular/router": "~10.2.4",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
